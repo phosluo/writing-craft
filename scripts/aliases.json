@@ -1,0 +1,431 @@
+{
+  "_说明": "英文技法词 → 库里用的中文说法。检索时自动展开，不用先翻译。只收库里确实出现过的词。",
+  "simile": [
+    "明喻",
+    "比喻"
+  ],
+  "metaphor": [
+    "隐喻",
+    "比喻"
+  ],
+  "analogy": [
+    "比喻",
+    "类比"
+  ],
+  "image": [
+    "意象",
+    "形象"
+  ],
+  "imagery": [
+    "意象"
+  ],
+  "symbol": [
+    "象征"
+  ],
+  "symbolism": [
+    "象征"
+  ],
+  "irony": [
+    "反讽",
+    "讽刺"
+  ],
+  "sarcasm": [
+    "反讽",
+    "讽刺"
+  ],
+  "hyperbole": [
+    "夸张"
+  ],
+  "understatement": [
+    "克制"
+  ],
+  "litotes": [
+    "克制",
+    "否定"
+  ],
+  "euphemism": [
+    "委婉"
+  ],
+  "cliche": [
+    "陈词",
+    "套话"
+  ],
+  "cliché": [
+    "陈词",
+    "套话"
+  ],
+  "parallelism": [
+    "排比",
+    "平行"
+  ],
+  "anaphora": [
+    "重复",
+    "排比"
+  ],
+  "repetition": [
+    "重复"
+  ],
+  "refrain": [
+    "重复"
+  ],
+  "tricolon": [
+    "三",
+    "排比"
+  ],
+  "antithesis": [
+    "对照"
+  ],
+  "juxtaposition": [
+    "并置",
+    "对照"
+  ],
+  "chiasmus": [
+    "回环",
+    "倒装"
+  ],
+  "zeugma": [
+    "并置"
+  ],
+  "ellipsis": [
+    "省略",
+    "留白"
+  ],
+  "elision": [
+    "省略"
+  ],
+  "asyndeton": [
+    "省略",
+    "并列"
+  ],
+  "polysyndeton": [
+    "连词",
+    "并列"
+  ],
+  "fragment": [
+    "短句",
+    "片段"
+  ],
+  "run-on": [
+    "长句"
+  ],
+  "sentence": [
+    "句子"
+  ],
+  "syntax": [
+    "句法",
+    "语序"
+  ],
+  "cadence": [
+    "节奏",
+    "音韵"
+  ],
+  "rhythm": [
+    "节奏"
+  ],
+  "pacing": [
+    "节奏",
+    "推进"
+  ],
+  "meter": [
+    "节奏",
+    "音步"
+  ],
+  "alliteration": [
+    "头韵",
+    "音韵"
+  ],
+  "assonance": [
+    "韵",
+    "音韵"
+  ],
+  "onomatopoeia": [
+    "拟声"
+  ],
+  "voice": [
+    "语气",
+    "声音"
+  ],
+  "tone": [
+    "语气",
+    "语调"
+  ],
+  "mood": [
+    "氛围",
+    "情绪"
+  ],
+  "diction": [
+    "用词",
+    "选词"
+  ],
+  "connotation": [
+    "含义",
+    "联想"
+  ],
+  "denotation": [
+    "词义"
+  ],
+  "verb": [
+    "动词"
+  ],
+  "adverb": [
+    "副词"
+  ],
+  "adjective": [
+    "形容词"
+  ],
+  "noun": [
+    "名词"
+  ],
+  "modifier": [
+    "修饰"
+  ],
+  "passive": [
+    "被动"
+  ],
+  "active": [
+    "主动"
+  ],
+  "tense": [
+    "时态",
+    "时间"
+  ],
+  "pronoun": [
+    "代词",
+    "人称"
+  ],
+  "punctuation": [
+    "标点"
+  ],
+  "semicolon": [
+    "分号"
+  ],
+  "colon": [
+    "冒号"
+  ],
+  "dash": [
+    "破折号"
+  ],
+  "comma": [
+    "逗号"
+  ],
+  "period": [
+    "句号"
+  ],
+  "paragraph": [
+    "段落"
+  ],
+  "transition": [
+    "过渡",
+    "衔接"
+  ],
+  "topic sentence": [
+    "主题句",
+    "段首"
+  ],
+  "opening": [
+    "开头",
+    "开篇"
+  ],
+  "hook": [
+    "开头",
+    "开篇",
+    "钩子"
+  ],
+  "ending": [
+    "结尾",
+    "收束"
+  ],
+  "climax": [
+    "高潮"
+  ],
+  "resolution": [
+    "结局",
+    "收束"
+  ],
+  "scene": [
+    "场景"
+  ],
+  "setting": [
+    "场景",
+    "环境"
+  ],
+  "description": [
+    "描写"
+  ],
+  "sensory": [
+    "感官"
+  ],
+  "detail": [
+    "细节"
+  ],
+  "concrete": [
+    "具体"
+  ],
+  "abstract": [
+    "抽象"
+  ],
+  "specific": [
+    "具体"
+  ],
+  "dialogue": [
+    "对话"
+  ],
+  "subtext": [
+    "潜台词"
+  ],
+  "beats": [
+    "节拍",
+    "节奏"
+  ],
+  "gesture": [
+    "动作",
+    "手势"
+  ],
+  "body": [
+    "身体"
+  ],
+  "silence": [
+    "沉默",
+    "留白"
+  ],
+  "white space": [
+    "留白"
+  ],
+  "interiority": [
+    "内心",
+    "心理"
+  ],
+  "thought": [
+    "心理",
+    "内心"
+  ],
+  "point of view": [
+    "视角",
+    "人称"
+  ],
+  "pov": [
+    "视角",
+    "人称"
+  ],
+  "first person": [
+    "第一人称"
+  ],
+  "second person": [
+    "第二人称"
+  ],
+  "third person": [
+    "第三人称"
+  ],
+  "narrator": [
+    "叙述者",
+    "视角"
+  ],
+  "foreshadowing": [
+    "伏笔",
+    "预示"
+  ],
+  "setup": [
+    "铺垫",
+    "伏笔"
+  ],
+  "payoff": [
+    "回收",
+    "呼应"
+  ],
+  "suspense": [
+    "悬念"
+  ],
+  "tension": [
+    "张力",
+    "悬念"
+  ],
+  "dramatic irony": [
+    "反讽"
+  ],
+  "flashback": [
+    "闪回",
+    "回溯"
+  ],
+  "backstory": [
+    "背景",
+    "前史"
+  ],
+  "exposition": [
+    "交代",
+    "说明"
+  ],
+  "summary": [
+    "概述",
+    "概括"
+  ],
+  "withholding": [
+    "扣住",
+    "延迟"
+  ],
+  "delay": [
+    "延迟",
+    "扣住"
+  ],
+  "reveal": [
+    "揭示",
+    "翻转"
+  ],
+  "turn": [
+    "转折"
+  ],
+  "epiphany": [
+    "顿悟"
+  ],
+  "theme": [
+    "主题"
+  ],
+  "motif": [
+    "主题",
+    "意象"
+  ],
+  "character": [
+    "人物"
+  ],
+  "characterization": [
+    "人物",
+    "塑造"
+  ],
+  "motive": [
+    "动机"
+  ],
+  "conflict": [
+    "冲突"
+  ],
+  "stakes": [
+    "代价",
+    "赌注"
+  ],
+  "cut": [
+    "删"
+  ],
+  "trim": [
+    "删"
+  ],
+  "revision": [
+    "修订",
+    "删减"
+  ],
+  "clarity": [
+    "清晰"
+  ],
+  "concision": [
+    "简洁"
+  ],
+  "show don't tell": [
+    "展示",
+    "以动作"
+  ],
+  "showing": [
+    "展示",
+    "以动作"
+  ],
+  "telling": [
+    "告知",
+    "判断"
+  ]
+}

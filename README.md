@@ -18,6 +18,12 @@ git clone git@github.com:phosluo/writing-craft.git ~/.claude/skills/writing-craf
 # 关键词检索，给 gid + 标题 + 一句话效果
 python3 ~/.claude/skills/writing-craft/scripts/find.py 具体 名词
 
+# 结果太杂时：只在标题与效果里找，不回退
+python3 ~/.claude/skills/writing-craft/scripts/find.py --strict 声音 交叉
+
+# 限定一层：句子 / 段落 / 结构
+python3 ~/.claude/skills/writing-craft/scripts/find.py --layer 结构 悬念
+
 # 取整张卡：公式、例句、点破、变体、反模式、AI 执行指令
 python3 ~/.claude/skills/writing-craft/scripts/find.py --gid G0860
 
@@ -26,20 +32,27 @@ python3 ~/.claude/skills/writing-craft/scripts/find.py --domain 对话
 
 # 19 个主题域各有多少张
 python3 ~/.claude/skills/writing-craft/scripts/find.py --list
+
+# 核对自己写的引文是否逐字来自原文
+python3 ~/.claude/skills/writing-craft/scripts/find.py --verify 原文.txt 分析.md
 ```
 
-检索词用**动作词**（具体、删除、延迟、并置），别用「生动」「高级」这类感觉词。
+检索词用**动作词**（具体、删除、延迟、并置），别用「生动」「高级」这类感觉词。打英文也可以，`scripts/aliases.json` 会把 simile、foreshadowing 这类词展开成库里用的中文说法。
+
+`--verify` 把分析文件里每个 `> ` 引用块拿去和原文比，报逐字命中、含省略号待确认、不合格三类，不合格会指出断在第几个词——拼接两句原文当一句引，会被抓出来。
 
 ## 结构
 
 ```
-SKILL.md            入口：三层怎么判断、一张卡怎么读、改稿流程、硬规则
+SKILL.md            入口：三层怎么判断、一张卡怎么读、改稿与通读分析流程、硬规则
 references/
-  00-索引.md        916 张卡的标题索引（★ 多书合并 / · 单书来源）
+  00-目录.md        916 张卡的一行版：gid + 标题 + 一句效果，通读分析先读它
+  00-索引.md        只有标题的索引（★ 多书合并 / · 单书来源）
   manifest.json     检索清单，find.py 读它
   句子层/ 段落场景层/ 叙事结构层/     按主题域分的 74 个卡片文件
 scripts/
-  find.py           检索与取卡
+  find.py           检索、取卡、引文核验
+  aliases.json      英文技法词 → 中文说法
 ```
 
 卡片按「层 → 主题域」组织。层决定你在哪一级动手：
